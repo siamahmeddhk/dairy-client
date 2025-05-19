@@ -14,7 +14,7 @@ export const router = createBrowserRouter([
         },
         {
             path: '/all',
-            loader: () => fetch('https://dairy-server-l9s0459xk-siamahmeddhks-projects.vercel.app/pages'),
+            loader: () => fetch('https://dairy-server.vercel.app/pages'),
             Component: All,
         }
     ]

@@ -10,7 +10,7 @@ const Add = () => {
     const saveddata = Object.fromEntries(formdata.entries());
     console.log(saveddata);
 
-    fetch("https://dairy-server-l9s0459xk-siamahmeddhks-projects.vercel.app/pages", {
+    fetch("https://dairy-server.vercel.app/pages", {
       method: "POST",
       headers: {
         "content-type": "application/json",
